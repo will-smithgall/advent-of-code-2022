@@ -15,7 +15,7 @@ public class DayTwo {
     }
 
     public int PartOne() throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("input/daytwo.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("data/daytwo.txt"));
         String line = br.readLine();
 
         int totalPoints = 0;
