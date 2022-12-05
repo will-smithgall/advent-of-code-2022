@@ -5,16 +5,14 @@ import java.io.IOException;
 public class DayTwo {
 
     public static void main(String[] args) throws IOException {
-        Day2 day2 = new Day2();
-
-        int partOne = day2.PartOne();
-        int partTwo = day2.PartTwo();
+        int partOne = PartOne();
+        int partTwo = PartTwo();
 
         System.out.println("Total Points: " + partOne);
         System.out.println("Total Points: " + partTwo);
     }
 
-    public int PartOne() throws IOException {
+    public static int PartOne() throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("data/daytwo.txt"));
         String line = br.readLine();
 
@@ -61,7 +59,7 @@ public class DayTwo {
 
     }
 
-    public int PartTwo() throws IOException {
+    public static int PartTwo() throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("input/daytwo.txt"));
         String line = br.readLine();
 
