@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Day3 {
+public class DayThree {
     public static void main(String[] args) throws IOException {
         int priorityOne = PartOne();
         System.out.println("Part one: " + priorityOne);
