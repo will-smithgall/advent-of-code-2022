@@ -12,7 +12,7 @@ public class DayThree {
     }
 
     public static int PartOne() throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("input/daythree.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("data/daythree.txt"));
 
         String line = br.readLine();
         int priority = 0;
